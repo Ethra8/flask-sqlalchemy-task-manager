@@ -12,4 +12,4 @@ app.config["SQLALCHEMY_DATABASE_URI"] = os.environ.get("DB_URL")
 
 db = SQLAlchemy(app)
 
-from taskmanager import routes  # noqa need to be imported after db is defined, it refers to db
+from taskmanager import routes  # noqa need to be imported after db is defined, as it refers to db
