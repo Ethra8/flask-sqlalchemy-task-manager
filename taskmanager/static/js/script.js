@@ -17,5 +17,3 @@ document.addEventListener('DOMContentLoaded', function () {
     M.FormSelect.init(selects);
 
 });
-
-document.addEventListener('DOMContentLoaded', function () {});
